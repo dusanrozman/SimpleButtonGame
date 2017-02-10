@@ -21,12 +21,12 @@ public class BoardPanel extends JPanel implements ActionListener{
 										new ImageIcon("./ButtonImages/DarkGrayButton.png")}; 
 	
 	public static ImageIcon[] selectedIcons = { new ImageIcon("./SelectedButtonImages/SelectedRedButton.png"), 
-												new ImageIcon("./SelectedButtonImages/SelectedOrangeButton.png"), 
-												new ImageIcon("./SelectedButtonImages/SelectedYellowButton.png"), 
-												new ImageIcon("./SelectedButtonImages/SelectedGreenButton.png"), 
-												new ImageIcon("./SelectedButtonImages/SelectedBlueButton.png"), 
-												new ImageIcon("./SelectedButtonImages/electedLightGrayButton.png"), 
-												new ImageIcon("./SelectedButtonImages/SelectedDarkGrayButton.png") 
+												new ImageIcon("./ButtonImages/SelectedOrangeButton.png"), 
+												new ImageIcon("./ButtonImages/SelectedYellowButton.png"), 
+												new ImageIcon("./ButtonImages/SelectedGreenButton.png"), 
+												new ImageIcon("./ButtonImages/SelectedBlueButton.png"), 
+												new ImageIcon("./ButtonImages/electedLightGrayButton.png"), 
+												new ImageIcon("./ButtonImages/SelectedDarkGrayButton.png") 
                                               };
 	public BoardPanel (){
 				
