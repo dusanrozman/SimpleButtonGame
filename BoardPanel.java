@@ -54,11 +54,7 @@ public class BoardPanel extends JPanel implements ActionListener{
 		quitButton.setLocation(460, 570);
 		quitButton.setSize(102, 30);
 		add(quitButton);
-		/*quitButton.addActionListener(new ActionListener() { 
-			 public void actionPerformed(ActionEvent e) { 
-				 update();
-				 }});*/
-        
+		
 		scoreField.setLocation(80, 570); 
 		scoreField.setSize(130, 30);
 		scoreField.setHorizontalAlignment(JTextField.RIGHT); 
