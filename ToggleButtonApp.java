@@ -40,10 +40,10 @@ public class ToggleButtonApp extends JFrame implements ActionListener {
 				if (e.getSource() == buttons[row][col]) { 
 					System.out.println("You pressed the button at row: " + row + ", column: " + col + "."); 
 					// Now toggle the button's color 
-					if (buttons[0][0].getIcon() == new ImageIcon("src\\OrangeButton.png")) 
-						buttons[0][0].setIcon(new ImageIcon("src\\RedButton.png")); 
+					if (buttons[0][0].getIcon() == new ImageIcon("./ButtonImages/OrangeButton.png")) 
+						buttons[0][0].setIcon(new ImageIcon("./ButtonImages/RedButton.png")); 
 					else 
-						buttons[0][0].setIcon(new ImageIcon("src\\BlueButton.png")); 
+						buttons[0][0].setIcon(new ImageIcon("./ButtonImages/BlueButton.png")); 
 				} 
 			} 
 		} 
