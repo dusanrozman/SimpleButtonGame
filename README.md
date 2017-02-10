@@ -4,5 +4,5 @@ The Shiny Button Game was an application made using Java and Java Swing library.
 
 # Compiling and Running the Program
 - Make to sure to download the source files plus the button images (.png) which are located in the "./ButtonImages/" foloder.
-- Compile the source code in a command line environment by using: 'javac *.java'
-- Once compiled, you may run the application by using: 'java ShinyButtonsApp'
+- Compile the source code in a command line environment by using: ` javac *.java `
+- Once compiled, you may run the application by using: ` java ShinyButtonsApp `
